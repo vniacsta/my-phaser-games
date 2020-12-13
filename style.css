@@ -1,0 +1,140 @@
+body {
+  background-color: #46403d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
+  padding: 50px 20px 30px;
+  text-align: center;
+}
+
+.joystickIcon {
+  width: 80px;
+  animation: shake 1.5s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(0deg);
+  }
+}
+
+.playMessage {
+  color: #c7c5c4;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+  padding: 25px 0;
+  margin: 5px;
+}
+
+.footer {
+  padding: 10px;
+  color: #c7c5c4;
+  font-size: 13px;
+}
+
+.footer a {
+  color: #c7c5c4;
+  font-weight: 600;
+}
+
+.games {
+  height: 350px;
+}
+
+.gameBlock {
+  border: solid 1px #000000;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  height: 150px;
+}
+
+.gameBlock a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 900;
+}
+
+.gameBlock p {
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}
+
+.gameFastFoodie {
+  background-image: url(./media/fast-foodie.png);
+  background-position-y: 10px;
+  background-position-x: center;
+}
+
+.gameMouse {
+  background-image: url(./media/electric-mouse.png);
+  background-position-x: -25px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+}
+
+.gameCountingConundrum {
+  background-image: url(./media/codey_searching.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.gameBob {
+  background-image: url(./media/Bob-front.png);
+  background-position: center;
+}
+
+.gameBugDodger {
+  background-image: url(./media/bugs.png);
+  background-size: 50%;
+}
+
+.gameCubeMatcher {
+  background-image: url(./media/blocks.png);
+  background-position: center;
+}
+
+.gameMole {
+  background-image: url(./media/mole-sprite.png);
+  background-size: 350%;
+  background-position-x: -8px;
+}
+
+.gameTreasure {
+  background-image: url(./media/gold+coin+shine.png);
+  background-position: center;
+}
