@@ -100,11 +100,9 @@ footer a {
   background-position-x: center;
 }
 
-.gameMouse {
-  background-image: url(./media/electric-mouse.png);
-  background-position-x: -25px;
-  background-position-y: 10px;
-  background-repeat: no-repeat;
+.gameJumper {
+  background-image: url(./media/platforms.png);
+  background-size: 50%;
 }
 
 .gameCountingConundrum {
