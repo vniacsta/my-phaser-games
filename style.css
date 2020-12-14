@@ -57,19 +57,19 @@ body {
   margin: 5px;
 }
 
-.footer {
-  padding: 10px;
-  color: #c7c5c4;
+footer {
   font-size: 13px;
+  color: #c7c5c4;
+  padding: 15px;
 }
 
-.footer a {
+footer a {
   color: #c7c5c4;
   font-weight: 600;
 }
 
 .games {
-  height: 350px;
+  margin-bottom: 25px;
 }
 
 .gameBlock {
