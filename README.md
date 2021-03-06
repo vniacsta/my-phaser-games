@@ -1,5 +1,8 @@
-# my-phaser-games
+## Arcade Games in PhaserJS made by me :)
 
-Phaser.JS games
 
 Games coded by me during the Phaser.JS course online with Codecademy.com
+
+
+Check them out in my page: vniacsta.github.io/my-phaser-games/
+Thanks!
